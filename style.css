@@ -1,0 +1,33 @@
+a::before {
+  content: "\21d2 ";
+  font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+
+.container{
+  margin-top: 10px;
+}
+img{
+  width:100%;
+}
+
+.row > div {
+  margin-bottom: 20px;
+}
+
+table,th,td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.grid {
+        display: grid;
+        padding: 20px;
+        grid-column-gap: 20px;
+        grid-template-columns: auto auto ;
+}
+.grid-item {
+        text-align: center;
+}
