@@ -31,3 +31,19 @@ table,th,td {
 .grid-item {
         text-align: center;
 }
+
+#home_heading {
+  color:#42c8f4;
+}
+
+@media (min-width: 500px) {
+  #pg2_heading {
+  color:red;
+  }
+}
+
+@media (max-width: 499px) {
+  #pg2_heading {
+  color: blue;
+  }
+}
